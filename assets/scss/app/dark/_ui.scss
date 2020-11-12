@@ -1,0 +1,93 @@
+/* QsFormGroup */
+.form-group .area_input > input {
+  color: $dark-text-white;
+  background-color: $dark-component-background-color;
+  border-color: $dark-component-background-color;
+}
+
+/* QsTextarea */
+.qs_textarea ._inner {
+  > textarea {
+    color: $dark-text-white;
+    background-color: $dark-component-background-color;
+    border-color: $dark-component-background-color;
+  }
+
+  ._length {
+    border-color: $dark-border-color !important;
+  }
+}
+
+/* QsDropdown */
+.qs_dropdown ._inner {
+  background-color: $dark-component-background-color !important;
+  border-color: $dark-component-background-color !important;
+
+  ._txt {
+    color: $dark-text-white;
+
+    &.active {
+      background-color: $dark-background-color;
+    }
+  }
+  ._arr {
+    color: $dark-text-white;
+  }
+}
+
+/* QsModal */
+.qs_modal {
+  ._tit {
+    font-weight: $font-weight-normal;
+    color: $dark-text-white;
+  }
+
+  .modal-content {
+    color: $dark-text-gray;
+    background-color: #030303;
+  }
+
+  .modal_header {
+    ._tit {
+      font-weight: $font-weight-normal;
+      color: $dark-text-white;
+    }
+
+    .btn_close > i {
+      color: $dark-text-white !important;
+    }
+  }
+}
+
+/* QsCount */
+.qs_count {
+  .count_input {
+    color: $white;
+    background-color: transparent;
+  }
+
+  .count_btn:disabled i:before {
+    color: #555;
+  }
+}
+
+/* QsTab */
+.qs_tab {
+  background-color: $dark-background-color;
+
+  ._item > span {
+    font-weight: $font-weight-normal;
+  }
+
+  ._item.active > span {
+    color: $dark-text-white;
+  }
+}
+
+/* QsNotify */
+.qs_notify {
+  ._content {
+    background-color: #030303;
+    opacity: 1;
+  }
+}

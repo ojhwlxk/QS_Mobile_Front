@@ -1,0 +1,7 @@
+.dark {
+  color: $dark-text-white;
+  background-color: $dark-background-color;
+
+  @import "dark/common";
+  @import "dark/ui";
+}

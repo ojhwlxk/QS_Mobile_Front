@@ -1,0 +1,33 @@
+.qs_modal {
+  display: block;
+  @include transition($transition-fade);
+
+  .modal-content {
+    z-index: $zindex-modal;
+    @include transition($transition-base);
+  }
+
+  .modal-body {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .modal-backdrop {
+    background-color: rgba($modal-backdrop-bg, $modal-backdrop-opacity);
+  }
+}
+
+/* transition */
+.modal-enter,
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-content,
+.modal-leave-active .modal-content {
+  transform: scale(1.1);
+}

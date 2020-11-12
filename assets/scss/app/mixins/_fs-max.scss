@@ -1,0 +1,9 @@
+@function fs-max($fs) {
+
+  $fs-ratio: 1.5;
+  $fs-min: 12px;
+  $fs-diff: $fs - $fs-min;
+  $fs-max: $fs-min + ($fs-diff * $fs-ratio);
+
+  @return round($fs-max);
+}

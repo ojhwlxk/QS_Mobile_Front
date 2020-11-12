@@ -1,0 +1,47 @@
+hr {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  &._space {
+    height: 11px;
+    border-top: 1px solid $border-color;
+    background-color: $light;
+    margin: 0;
+  }
+}
+
+i.arr_rotate {
+  display: block;
+
+  .active & {
+    transform: rotate(180deg);
+  }
+}
+
+.fixed-bottom {
+  @include media-breakpoint-up(xl) {
+    position: inherit;
+  }
+}
+
+/* board detail */
+.detail_area {
+  ._tit {
+    font-size: 16px;
+  }
+
+  ._date {
+    font-size: 10px;
+    color: #999dad;
+  }
+
+  ._content {
+    color: $black;
+
+    img {
+      @include img-fluid;
+      display: block;
+      margin-bottom: 16px;
+    }
+  }
+}

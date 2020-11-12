@@ -1,0 +1,49 @@
+// Variables
+
+// Nav Height
+$navbar-height: 44px;
+$nav-bot-height: 64px;
+
+// Heading Max font-size
+$h1-font-size-max:      42px !default;
+$h2-font-size-max:      36px !default;
+$h3-font-size-max:      30px !default;
+$h4-font-size-max:      21px !default;
+$h5-font-size-max:      18px !default;
+$h6-font-size-max:      15px !default;
+
+// Content Padding
+$content-padding-top: 50px;
+$content-padding-bottom: 100px;
+
+
+// List
+$board-item-padding-x: 8px;
+$board-item-padding-y: 8px;
+
+$accordian-padding-x: 12px;
+$accordian-padding-y: 8px;
+
+$list-thumbnail-gutter: $grid-gutter-width;
+
+$dt-inline-width: 110px;
+
+
+// Icon size
+$icon-size: 24px;
+
+
+// Dark Mode
+$dark-text-white: #fff;
+$dark-text-gray: #999dad;
+$dark-border-color: #434343;
+$dark-background-color: #1a1c1f;
+$dark-component-background-color: #222529;
+
+$dark-font-weight-light: 200;
+$dark-font-weight-base: 300;
+$dark-font-weight-bold: 400;
+
+
+// transition
+$transition-nav: .15s ease-in-out;

@@ -1,0 +1,10 @@
+@mixin gutter($gutter-size) {
+  margin-right: -$gutter-size;
+  margin-left: -$gutter-size;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: $gutter-size;
+    padding-left: $gutter-size;
+  }
+}

@@ -1,0 +1,30 @@
+/* type */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: $dark-font-weight-bold;
+  color: $dark-text-white;
+}
+
+/* button */
+.btn {
+  font-weight: $dark-font-weight-base !important;
+}
+
+
+/* hr */
+hr._space {
+  background-color: $dark-component-background-color;
+  border-color: $dark-border-color;
+}
+
+/* list */
+.list_ li + li {
+  border-color: $dark-border-color;
+}
+
+.dl_info {
+  dt, dd {
+    font-weight: $dark-font-weight-light;
+    color: $white;
+  }
+}

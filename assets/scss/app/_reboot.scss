@@ -1,0 +1,17 @@
+ol,
+ul,
+dl {
+  @include list-unstyled();
+  margin-bottom: 0;
+}
+
+/* input search */
+input[type="search"]::-webkit-search-cancel-button {
+  /* Remove default */
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
